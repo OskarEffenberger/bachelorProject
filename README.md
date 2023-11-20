@@ -28,6 +28,8 @@ Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=i
 * Booleans, dictating on which taxinomic level the reads get grouped
 #### Output
 * 2 Tables (.tsv) with reads for each samples in the given Biom (row 1: Analysis-Accession, column 1: taxonomic type)
+### Normalization Subworkflow
+Informations to Normalization: [Go to Normalization Workflow section](#normalization-workflow)
 # Notebooks
 ### Get Analysis
 [Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis.ipynb)
