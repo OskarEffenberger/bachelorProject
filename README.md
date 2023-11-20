@@ -52,7 +52,7 @@ Collection with Taxonomic assignments for each sample of the given Study
 # Normalization Workflow
 Link to Workflow : https://usegalaxy.eu/u/johannes.effenberger/w/normalization
 # INSERT GRAPH
-This workflow noramlizes a given Table. 
+This workflow normalizes a given table using one of the following normalization methods 
 ## Normalization Methods
 * Relative Abundance
 * Softmax normalization, to prevent overflow errors when we have large assignment values we first calculate relative abundance, and multiply the results of that by 100 before we use softmax normalization.
