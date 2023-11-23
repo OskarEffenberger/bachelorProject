@@ -39,7 +39,7 @@ Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=i
 * 
 Link to Workflow: https://usegalaxy.eu/u/johannes.effenberger/w/mergetaxonomybyrankreducedcalls
 
-Link to Example history: https://usegalaxy.eu/u/johannes.effenberger/h/mergetaxonomybyrankreducedcalls-example-workflow
+Link to Example history: [https://usegalaxy.eu/u/johannes.effenberger/h/mergetaxonomybyrankreducedcalls-example-workflow](https://usegalaxy.eu/u/johannes.effenberger/h/mergetaxonomybyrankreducedcalls)
 
 ### Normalization Subworkflow
 Informations to Normalization: [Go to Normalization Workflow section](#normalization-workflow)
