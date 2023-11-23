@@ -36,7 +36,9 @@ Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=i
 #### Output
 * Merged table with assignments for all samples in collection,
 * Additional row summing up counts for a specified taxonomic level
+* 
 Link to Workflow: https://usegalaxy.eu/u/johannes.effenberger/w/mergetaxonomybyrankreducedcalls
+
 Link to Example history: https://usegalaxy.eu/u/johannes.effenberger/h/mergetaxonomybyrankreducedcalls-example-workflow
 
 ### Normalization Subworkflow
