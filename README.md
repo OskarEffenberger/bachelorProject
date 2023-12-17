@@ -8,12 +8,12 @@ Detailed Graph
 Takes Taxonimic assignments for Bioms from the [MGnify](https://www.ebi.ac.uk/metagenomics) Database and feeds them into a [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest), resulting in classification on a Biom level.
 ## Inputs
 * 2 Bioms Strings from Mgnify (eg. **root:Engineered** or **root:Environmental:Aquatic:Freshwater:Drinking water:Chlorinated**), a list of possible bioms can be found [here](https://www.ebi.ac.uk/metagenomics/browse/biomes/).
-* A jupyter notebook [Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis.ipynb) , which saves Taxonomic assignmensts in 'outputs/collection'
+* A jupyter notebook [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) , which collects Taxonomic assignmensts from MGnify
+* A jupyter notebook [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) , which collects Taxonomic assignmensts from MGnify
+* A taxonomic level on which [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) merges the assignments
 * Max Samples, an integer limiting for how many samples the Notebook tries to find assignments. This input exists to reduce datasize and runtime for Bioms with large quantities of samples.
 * A normalization method out of {Softmax,relative Abundance, Sigmoid, CSS, TMM,RLE}
-* 8 Boolean paremeters, one for each Taxonomic level. (On False: all assignments for this Taxonomic level get filterd out)
 
-!atleast one of the 8 Boolean parameters have to be true, otherwise the workflow will crash.
 
 ## Outputs
 Results of the workflow are outputs from the [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest).
@@ -26,7 +26,7 @@ and matching values.
 Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis.ipynb) to retrive Taxonomic assignments from Mgnify. Those are Then grouped according to the Boolean paramets for each Taxonomic level and Merged into one Table per biom in the end.
 #### Input
 * 2 Biom Identifier fom Mgnify
-* [Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis.ipynb) as notebook
+* [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as notebook
 * An integer setting a maximum number of samples (To allow usage of large bioms without downloading 50000 samples)
 * Booleans, dictating on which taxinomic level the reads get grouped
 #### Output
