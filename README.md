@@ -65,7 +65,7 @@ Collection with Taxonomic assignments for each sample of the given Study
 
 # Normalization Workflow
 Link to Workflow : https://usegalaxy.eu/u/johannes.effenberger/w/normalization
-# INSERT GRAPH
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/FullNormalizationWF.png)
 This workflow normalizes a given table using one of the following normalization methods 
 ## Normalization Methods
 * Relative Abundance
