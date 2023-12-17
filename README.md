@@ -1,7 +1,10 @@
 # [DeepMicro on Mgnify Bioms Galaxy Workflow](https://usegalaxy.eu/u/johannes.effenberger/w/copy-of-mgnify-ml-normalization)
 Link to Workflow : https://usegalaxy.eu/u/johannes.effenberger/w/copy-of-mgnify-ml-normalization
 ## What it does
+Abstract Graph
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/MgnifyMLAbstract_Fill.png)
+Detailed Graph
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/CompleteWorkflowGraph.png)
 Takes Taxonimic assignments for Bioms from the [MGnify](https://www.ebi.ac.uk/metagenomics) Database and feeds them into a [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest), resulting in classification on a Biom level.
 ## Inputs
 * 2 Bioms Strings from Mgnify (eg. **root:Engineered** or **root:Environmental:Aquatic:Freshwater:Drinking water:Chlorinated**), a list of possible bioms can be found [here](https://www.ebi.ac.uk/metagenomics/browse/biomes/).
