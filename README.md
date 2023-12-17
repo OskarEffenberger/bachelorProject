@@ -31,24 +31,11 @@ Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=i
 * Booleans, dictating on which taxinomic level the reads get grouped
 #### Output
 * 2 Tables (.tsv) with reads for each samples in the given Biom (row 1: Analysis-Accession, column 1: taxonomic type)
-### Merge assignments on Taxonomic Level (WIP)
-![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/MergeTaxonomyOnRank.png)
-#### Input
-* Collection of OUT tables
-* One Taxa Level
-#### Output
-* Merged table with assignments for all samples in collection,
-* Additional row summing up counts for a specified taxonomic level
-* 
-Link to Workflow: https://usegalaxy.eu/u/johannes.effenberger/w/mergetaxonomybyrankreducedcalls
-
-Link to Example history: [https://usegalaxy.eu/u/johannes.effenberger/h/mergetaxonomybyrankreducedcalls-example-workflow](https://usegalaxy.eu/u/johannes.effenberger/h/mergetaxonomybyrankreducedcalls)
-
 ### Normalization Subworkflow
 Informations to Normalization: [Go to Normalization Workflow section](#normalization-workflow)
 # Notebooks
 ### Get Analysis
-[Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis.ipynb)
+[Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb)
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/Get_Analysis_Notebook_Graph.png)
 Gets Taxonomic assignments from Mgnify for 2 given Bioms and merges them into 2 Tabes. One for each Biom.
 #### Input
@@ -58,7 +45,7 @@ A maximim number of samples. (interger)
 #### Output
 Collection with Taxonomic assignments for each sample
 ### Get Analysis For Study
-[Get_analysis_for_study.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis_for_study.ipynb)
+[Galaxy_Get_analysis_for_study.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis_for_study.ipynb)
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/Get_Analysis_For_Study_Notebook_Graph.png)
 Gets Taxonomic assignments from Mgnify for all Samples of one Study.
 #### Input
