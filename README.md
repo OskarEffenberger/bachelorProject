@@ -23,7 +23,7 @@ and matching values.
 # Subworkflows
 ### GetDataFromMgnifyAndJoin
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/GetDataFromMgnifyAndJoinGraph.png)
-Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Get_analysis.ipynb) to retrive Taxonomic assignments from Mgnify. Those are Then grouped according to the Boolean paramets for each Taxonomic level and Merged into one Table per biom in the end.
+Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) to retrive Taxonomic assignments from Mgnify. Those are Then grouped according to the Boolean paramets for each Taxonomic level and Merged into one Table per biom in the end.
 #### Input
 * 2 Biom Identifier fom Mgnify
 * [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as notebook
