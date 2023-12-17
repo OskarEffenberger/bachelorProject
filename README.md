@@ -74,5 +74,6 @@ This workflow normalizes a given table using one of the following normalization 
 * CSS
 * TMM
 * RLE
+
 ! TMM and RLE are calculated using the [Limma Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Flimma_voom%2Flimma_voom%2F3.50.1%2Bgalaxy0&version=latest) on Galaxy, resulting in longer calculation times.
 ## Example?
