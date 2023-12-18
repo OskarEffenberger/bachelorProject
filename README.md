@@ -27,17 +27,18 @@ Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=i
 #### Input
 * 2 Biom Identifier fom Mgnify
 * [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as notebook
+* [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) as notebook
 * An integer setting a maximum number of samples (To allow usage of large bioms without downloading 50000 samples)
-* Booleans, dictating on which taxinomic level the reads get grouped
+* A taxonomic level on which the counts are grouped
 #### Output
-* 2 Tables (.tsv) with reads for each samples in the given Biom (row 1: Analysis-Accession, column 1: taxonomic type)
+* 2 Tables (.tsv) with reads for each samples in the given Biom (row 1: Analysis-Accession, column 1: taxa)
 ### Normalization Subworkflow
 Informations to Normalization: [Go to Normalization Workflow section](#normalization-workflow)
 # Notebooks
 ### Get Analysis
 [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb)
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/Get_Analysis_Notebook_Graph.png)
-Gets Taxonomic assignments from Mgnify for 2 given Bioms and merges them into 2 Tabes. One for each Biom.
+Gets Taxonomic assignments from Mgnify for the given Biom
 #### Input
 A Biom identifier from Mgnify.
 
@@ -66,4 +67,27 @@ This workflow normalizes a given table using one of the following normalization 
 * RLE
 
 ! TMM and RLE are calculated using the [Limma Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Flimma_voom%2Flimma_voom%2F3.50.1%2Bgalaxy0&version=latest) on Galaxy, resulting in longer calculation times.
-## Example?
+## Exampledata and Run for the Workflow
+Step 1:
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_required_notebooks.png)
+Load the [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) and [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) notebook into Galaxy
+
+Step 2:
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_start_WF.png)
+When starting the Workflow select [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as Get Data Notebook and [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) as Merge Taxonomy Notebook.
+Step 3:
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_raw_and_merged_counts.png)
+The Jupytool Output Collections are the Reads for each sample (Output from [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb))
+and the countTable are all merged reads for 1 Biom (name of file changed depending on selected taxonomic level)
+[Example Data 3 Jupytool Output Collection](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/3%20JupyTool%20output%20collection)
+[Example Data 6 Jupytool Output Collection](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/6%20JupyTool%20output%20collection)
+[Example Data 513 counttable](https://github.com/OskarEffenberger/bachelorProject/blob/main/data/ExampleRunData/Galaxy513-%5BcountTable%5D.tsv)
+[Example Data 992 counttable](https://github.com/OskarEffenberger/bachelorProject/blob/main/data/ExampleRunData/Galaxy992-%5BcountTable%5D.tsv)
+Step 4:
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_normalized_counts.png)
+In Normalized Tables are the Normalized count tables for both Bioms. 
+[Example Data Normalized Tables](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/1170%20Normalized%20Table)
+Step 5:
+![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_output_WF.png)
+Output of the workflow is the result of the DeepMicro tool.
+[Example Data DeepMicro Output](https://github.com/OskarEffenberger/bachelorProject/blob/main/data/ExampleRunData/Galaxy1195-%5BDeepMicro_on_data_1193_and_data_1194__Results%5D.tabular)
