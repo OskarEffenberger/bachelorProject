@@ -87,19 +87,25 @@ Step 3:
 The Jupytool Output Collections are the Reads for each sample (Output from [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb))
 and the countTable are all merged reads for 1 Biom (name of file changed depending on selected taxonomic level)
 
+
 [Example Data 3 Jupytool Output Collection](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/3%20JupyTool%20output%20collection)
+
 
 [Example Data 6 Jupytool Output Collection](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/6%20JupyTool%20output%20collection)
 
+
 [Example Data 513 counttable](https://github.com/OskarEffenberger/bachelorProject/blob/main/data/ExampleRunData/Galaxy513-%5BcountTable%5D.tsv)
 
+
 [Example Data 992 counttable](https://github.com/OskarEffenberger/bachelorProject/blob/main/data/ExampleRunData/Galaxy992-%5BcountTable%5D.tsv)
+
 
 Step 4:
 
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_normalized_counts.png)
 
 In Normalized Tables are the Normalized count tables for both Bioms. 
+
 
 [Example Data Normalized Tables](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/1170%20Normalized%20Table)
 
@@ -108,5 +114,6 @@ Step 5:
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_output_WF.png)
 
 Output of the workflow is the result of the DeepMicro tool.
+
 
 [Example Data DeepMicro Output](https://github.com/OskarEffenberger/bachelorProject/blob/main/data/ExampleRunData/Galaxy1195-%5BDeepMicro_on_data_1193_and_data_1194__Results%5D.tabular)
