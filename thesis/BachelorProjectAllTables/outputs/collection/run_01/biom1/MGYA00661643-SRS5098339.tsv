@@ -1,0 +1,21 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	1.0	sk__Bacteria	2
+100998	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1654
+126303	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Streptomycetales;f__Streptomycetaceae;g__Streptomyces	1883
+110343	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales	171549
+133023	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Lentimicrobiaceae	1840213
+174745	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Paludibacteraceae	2005523
+116834	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Parabacteroides	375288
+103283	1.0	sk__Bacteria;k__;p__Candidatus_Saccharibacteria;c__;o__;f__;g__;s__TM7_phylum_sp._canine_oral_taxon_308	1151737
+223828	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales	186802
+233754	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Johnsonella;s__Johnsonella_ignava	43995
+217227	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__Filifactor	44259
+188960	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Dialister;s__Dialister_pneumosintes	39950
+61081	2.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	848
+166796	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae	481
+133521	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Eikenella	538
+83087	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	194
+198248	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter;s__Aggregatibacter_actinomycetemcomitans	714
+224279	4.0	sk__Bacteria;k__;p__Spirochaetes;c__Spirochaetia;o__Spirochaetales;f__Spirochaetaceae;g__Treponema	157
+126134	2.0	sk__Bacteria;k__;p__Synergistetes;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium	1434006

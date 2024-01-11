@@ -1,0 +1,7 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+100998	2.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1654
+196428	1.0	sk__Bacteria;k__;p__Firmicutes	1239
+13082	2.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1301
+67272	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas	970
+166796	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae	481

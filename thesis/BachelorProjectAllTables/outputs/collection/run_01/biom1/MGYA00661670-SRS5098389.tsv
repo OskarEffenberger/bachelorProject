@@ -1,0 +1,15 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	1.0	sk__Bacteria	2
+100998	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1654
+161961	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales;f__Corynebacteriaceae;g__Corynebacterium	1716
+169597	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Micrococcales	85006
+60820	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Micrococcales;f__Micrococcaceae;g__Rothia;s__Rothia_dentocariosa	2047
+179885	2.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae	171552
+91715	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Alloprevotella	1283313
+202268	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__Prevotella_oris	28135
+38718	2.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Tannerella	195950
+117819	2.0	sk__Bacteria;k__;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga	1016
+236454	2.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella	29465
+61081	1.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	848
+55349	1.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia	32067

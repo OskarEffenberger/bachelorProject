@@ -1,0 +1,25 @@
+Rscript '$__tool_directory__/limma_voom.R'
+
+-R '$outReport'
+-o '$outReport.files_path'
+
+
+-m count.tabular
+
+ -f factor.tabular 
+
+
+-D '${ ','.join( ['%s' % $x.contrast for x in Mut-WT] ) }'
+
+
+-x
+-l "0.0"
+-p "0.05"
+-d 'BH'
+-G 10
+-n 'TMM' -b
+
+
+# TMM COMMAND
+
+Rscript limma_voom.R -R output\out -o output -m count.tabular -f factor.tabular -D Mut,WT -x -l "0.0" -p "0.05" -d 'BH' -G 10 -n 'TMM' -b

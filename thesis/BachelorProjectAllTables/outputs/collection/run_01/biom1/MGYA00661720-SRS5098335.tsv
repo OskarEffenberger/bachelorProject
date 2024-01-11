@@ -1,0 +1,21 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	2.0	sk__Bacteria	2
+100998	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1654
+50425	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Micrococcales;f__Micrococcaceae;g__Rothia	32207
+108524	1.0	sk__Bacteria;k__;p__Bacteroidetes	976
+110343	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales	171549
+116834	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Parabacteroides	375288
+196428	1.0	sk__Bacteria;k__;p__Firmicutes	1239
+13082	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1301
+223828	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales	186802
+160002	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales_Family_XIII._Incertae_Sedis;g__;s__[Eubacterium]_brachy	35517
+217227	2.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__Filifactor	44259
+61081	1.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	848
+234309	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria	482
+71980	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobulbaceae;g__Desulfobulbus	893
+83087	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	194
+28730	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter;s__Campylobacter_rectus	203
+26147	2.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter	416916
+151248	2.0	sk__Bacteria;k__;p__Spirochaetes;c__Spirochaetia;o__Spirochaetales;f__Spirochaetaceae	137
+126134	2.0	sk__Bacteria;k__;p__Synergistetes;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium	1434006
