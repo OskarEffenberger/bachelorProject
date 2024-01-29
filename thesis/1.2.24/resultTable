@@ -1,0 +1,11 @@
+{Encoding}_{classifier}	AUC	ACC	Recall	Precision	F1_score	time-end	runtime(sec)	classficationtime(sec)	besthyper-parameter	taxa
+rf	1.0	0.9846	0.97	1.0	0.9848	2024-01-29 03:28:20.571017	479.13	479.12	{'criterion': 'entropy', 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 700}	countTable_X_result
+rf	0.9989	0.9846	0.97	1.0	0.9848	2024-01-29 03:20:13.059200	459.1	459.08	{'criterion': 'entropy', 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 100}	mergedOn_all_X_result
+rf	0.9948	0.9744	0.97	0.9798	0.9749	2024-01-29 02:44:49.558807	354.39	354.38	{'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 100}	mergedOn_class_X_result
+rf	0.9987	0.9795	0.97	0.9898	0.9798	2024-01-29 02:57:56.641891	386.86	386.86	{'criterion': 'entropy', 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 100}	mergedOn_family_X_result
+rf	0.9996	0.9795	0.97	0.9898	0.9798	2024-01-29 03:05:00.038250	416.07	416.07	{'criterion': 'gini', 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 300}	mergedOn_genus_X_result
+rf	0.9327	0.8564	0.85	0.8673	0.8586	2024-01-29 02:32:43.204464	332.22	332.22	{'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 2, 'n_estimators': 300}	mergedOn_kingdom_X_result
+rf	0.998	0.9846	0.97	1.0	0.9848	2024-01-29 02:51:23.472496	387.17	387.17	{'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 500}	mergedOn_order_X_result
+rf	0.992	0.9641	0.97	0.9604	0.9652	2024-01-29 02:38:48.298563	357.86	357.85	{'criterion': 'gini', 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 500}	mergedOn_phylum_X_result
+rf	0.9967	0.9795	0.97	0.9898	0.9798	2024-01-29 03:12:24.220137	436.53	436.53	{'criterion': 'gini', 'max_features': 'log2', 'min_samples_leaf': 2, 'n_estimators': 300}	mergedOn_species_X_result
+rf	0.9468	0.8769	0.85	0.9043	0.8763	2024-01-29 02:27:04.111712	352.86	352.85	{'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 2, 'n_estimators': 500}	mergedOn_superkingdom_X_result
