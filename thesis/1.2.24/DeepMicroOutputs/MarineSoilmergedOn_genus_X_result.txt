@@ -1,0 +1,1 @@
+rf,0.9845,0.9221,0.9839,0.8472,0.9104,2024-01-30 19:05:35.527398,618.71,618.7,"{'criterion': 'gini', 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 900}"
