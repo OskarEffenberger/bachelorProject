@@ -1,0 +1,11 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+23045	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae	49546
+140615	4.0	sk__Bacteria;k__;p__Proteobacteria	1224
+9760	4.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria	28211
+85210	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales	204455
+223669	3.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae	31989
+52402	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria	1236
+192707	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Oligoflexia	1553900
+66433	14.0	sk__Eukaryota;k__;p__Ciliophora;c__Spirotrichea;o__;f__Strombidiidae;g__Strombidium	60005
+119299	1.0	sk__Eukaryota;k__;p__Haptista;c__Haptophyta	2830

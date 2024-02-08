@@ -1,0 +1,16 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+41722	2570.0	sk__Archaea	2157
+118507	1.0	sk__Archaea;k__;p__Candidatus_Diapherotrites	743725
+195154	14405.0	sk__Archaea;k__;p__Crenarchaeota	28889
+182933	2.0	sk__Archaea;k__;p__Euryarchaeota	28890
+81891	122.0	sk__Archaea;k__;p__Euryarchaeota;c__;o__;f__;g__;s__Euryarchaeota_archaeon_SG8-5	1803822
+231105	26.0	sk__Archaea;k__;p__Euryarchaeota;c__Candidatus_Poseidoniia	2599185
+211481	52.0	sk__Archaea;k__;p__Euryarchaeota;c__Methanomicrobia	224756
+48483	1.0	sk__Archaea;k__;p__Euryarchaeota;c__Methanomicrobia;o__Methanosarcinales;f__Methanosarcinaceae;g__Methanosarcina	2207
+100452	1.0	sk__Archaea;k__;p__Euryarchaeota;c__Methanomicrobia;o__Methanosarcinales;f__Methermicoccaceae	660062
+232311	3.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermococci	183968
+179740	2283.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata	183967
+169681	639.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata;o__Methanomassiliicoccales;f__Methanomassiliicoccaceae	1577788
+219254	9.0	sk__Archaea;k__;p__Nanoarchaeota	192989
+104349	1.0	sk__Archaea;k__;p__Thaumarchaeota;c__;o__Nitrosopumilales;f__Nitrosopumilaceae	338190

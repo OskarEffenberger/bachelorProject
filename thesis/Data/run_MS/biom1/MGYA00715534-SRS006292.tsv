@@ -1,0 +1,12 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	1.0	sk__Bacteria	2
+108524	1.0	sk__Bacteria;k__;p__Bacteroidetes	976
+23045	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae	49546
+92267	1.0	sk__Bacteria;k__;p__Calditrichaeota;c__Calditrichae;o__Calditrichales;f__Calditrichaceae	1962854
+134190	1.0	sk__Bacteria;k__;p__Chloroflexi;c__Dehalococcoidia	301297
+92540	1.0	sk__Bacteria;k__;p__Ignavibacteriae;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__Ignavibacterium	795750
+189682	1.0	sk__Bacteria;k__;p__Nitrospirae	40117
+151898	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales	29
+126599	2.0	sk__Eukaryota;k__Metazoa;p__Mollusca;c__Gastropoda	6448
+5258	1.0	sk__Eukaryota;k__Metazoa;p__Mollusca;c__Gastropoda;o__Littorinimorpha	216294

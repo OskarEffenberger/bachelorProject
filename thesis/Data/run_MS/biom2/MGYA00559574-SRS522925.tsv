@@ -1,0 +1,9 @@
+# Constructed from biom file
+# OTU ID	SRR1066176	taxonomy
+192431	3.0	sk__Eukaryota
+162537	2.0	sk__Eukaryota;k__;p__;c__Aphelidea
+181514	28.0	sk__Eukaryota;k__Fungi
+112394	1.0	sk__Eukaryota;k__Fungi;p__Ascomycota;c__Schizosaccharomycetes;o__Schizosaccharomycetales;f__Schizosaccharomycetaceae;g__Schizosaccharomyces
+218087	1.0	sk__Eukaryota;k__Fungi;p__Basidiomycota
+66210	1.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Agaricomycetes
+65042	1.0	sk__Eukaryota;k__Metazoa

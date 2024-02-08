@@ -1,0 +1,15 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	2.0	sk__Bacteria	2
+95981	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae	2049
+100998	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1654
+200047	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae	31953
+195683	2.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella	838
+233822	1.0	sk__Bacteria;k__;p__Candidatus_Saccharibacteria	95818
+159248	1.0	sk__Bacteria;k__;p__Candidatus_Saccharibacteria;c__;o__;f__;g__Candidatus_Saccharimonas	1331051
+13082	2.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1301
+67272	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas	970
+76762	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae	31977
+236454	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella	29465
+112490	1.0	sk__Bacteria;k__;p__Firmicutes;c__Tissierellia;o__Tissierellales;f__Peptoniphilaceae;g__Parvimonas	543311
+55349	3.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia	32067

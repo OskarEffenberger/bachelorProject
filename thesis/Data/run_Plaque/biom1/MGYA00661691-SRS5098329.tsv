@@ -1,0 +1,25 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	2.0	sk__Bacteria	2
+100998	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1654
+161961	2.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales;f__Corynebacteriaceae;g__Corynebacterium	1716
+119415	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Propionibacteriales;f__Propionibacteriaceae;g__Granulicoccus	448176
+51923	2.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas	836
+179885	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae	171552
+117819	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga	1016
+233822	2.0	sk__Bacteria;k__;p__Candidatus_Saccharibacteria	95818
+13082	2.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1301
+223828	2.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales	186802
+67272	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Selenomonas	970
+76762	2.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae	31977
+236454	1.0	sk__Bacteria;k__;p__Firmicutes;c__Negativicutes;o__Veillonellales;f__Veillonellaceae;g__Veillonella	29465
+61081	2.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	848
+197704	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales	80840
+75066	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Paucibacter	318147
+234309	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria	482
+141309	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfomicrobiaceae;g__Desulfomicrobium;s__Desulfomicrobium_orale	132132
+83087	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	194
+151248	1.0	sk__Bacteria;k__;p__Spirochaetes;c__Spirochaetia;o__Spirochaetales;f__Spirochaetaceae	137
+224279	1.0	sk__Bacteria;k__;p__Spirochaetes;c__Spirochaetia;o__Spirochaetales;f__Spirochaetaceae;g__Treponema	157
+126134	2.0	sk__Bacteria;k__;p__Synergistetes;c__Synergistia;o__Synergistales;f__Synergistaceae;g__Fretibacterium	1434006
+165343	1.0	sk__Eukaryota;k__;p__Evosea;c__;o__Mastigamoebida;f__Entamoebidae	33084

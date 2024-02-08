@@ -1,0 +1,23 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+41722	1.0	sk__Archaea	2157
+30121	2.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales;f__Corynebacteriaceae	1653
+23699	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales;f__Dietziaceae;g__Dietzia	37914
+132036	2.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Micrococcales;f__Brevibacteriaceae;g__Brevibacterium	1696
+157542	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Micrococcales;f__Dermabacteraceae;g__Brachybacterium	43668
+236210	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Micrococcales;f__Microbacteriaceae	85023
+108524	1.0	sk__Bacteria;k__;p__Bacteroidetes	976
+57430	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes	239759
+143217	2.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Bacillales	1385
+162330	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae	90964
+46186	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus	1279
+59218	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Aerococcaceae	186827
+93008	3.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Carnobacterium	2747
+223828	3.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales	186802
+84106	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae	186803
+219656	1.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae	186804
+49796	2.0	sk__Bacteria;k__;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__Romboutsia	1501226
+81596	1.0	sk__Bacteria;k__;p__Firmicutes;c__Erysipelotrichia;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Turicibacter	191303
+140615	1.0	sk__Bacteria;k__;p__Proteobacteria	1224
+160329	2.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Methylobacteriaceae;g__Methylobacterium	407
+142585	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas	13687

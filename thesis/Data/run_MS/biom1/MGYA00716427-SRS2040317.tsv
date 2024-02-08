@@ -1,0 +1,13 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+100053	2.0	sk__Eukaryota	2759
+203864	116.0	sk__Eukaryota;k__;p__;c__Aphelidea	1498967
+209333	1147.0	sk__Eukaryota;k__;p__;c__Aphelidea;o__;f__Aphelidiaceae	2689233
+77252	98.0	sk__Eukaryota;k__;p__;c__Aphelidea;o__;f__Aphelidiaceae;g__Aphelidium	1498217
+208226	20.0	sk__Eukaryota;k__;p__;c__Choanoflagellata;o__Craspedida	1924738
+119481	2.0	sk__Eukaryota;k__;p__Imbricatea	1736114
+25778	1.0	sk__Eukaryota;k__Fungi	4751
+46745	1.0	sk__Eukaryota;k__Fungi;p__Chytridiomycota;c__Chytridiomycetes	451435
+124087	6.0	sk__Eukaryota;k__Fungi;p__Chytridiomycota;c__Chytridiomycetes;o__Rhizophydiales	451442
+55083	1.0	sk__Eukaryota;k__Fungi;p__Cryptomycota	1031332
+115107	3.0	sk__Eukaryota;k__Fungi;p__Cryptomycota;c__;o__;f__;g__Paramicrosporidium	1493516

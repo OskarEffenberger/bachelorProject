@@ -1,0 +1,10 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+53573	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Streptomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_sp._NRRL_F-6677	1463879
+195683	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella	838
+49	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__Prevotella_intermedia	28131
+23045	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae	49546
+233822	1.0	sk__Bacteria;k__;p__Candidatus_Saccharibacteria	95818
+13082	2.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1301
+61081	1.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	848
+140615	1.0	sk__Bacteria;k__;p__Proteobacteria	1224

@@ -1,0 +1,23 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+100053	7.0	sk__Eukaryota	2759
+100227	10.0	sk__Eukaryota;k__;p__;c__Choanoflagellata;o__Craspedida;f__Salpingoecidae;g__Lagenoeca	418243
+25778	2.0	sk__Eukaryota;k__Fungi	4751
+229700	1.0	sk__Eukaryota;k__Fungi;p__Ascomycota	4890
+192536	1.0	sk__Eukaryota;k__Fungi;p__Ascomycota;c__Saccharomycetes	4891
+18415	215.0	sk__Eukaryota;k__Fungi;p__Basidiomycota	5204
+143317	1284.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Agaricomycetes	155619
+63418	1.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Agaricomycetes;o__Gomphales	452336
+180428	3.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Exobasidiomycetes	452283
+2257	3.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Exobasidiomycetes;o__Microstromatales	162475
+45528	1.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Geminibasidiomycetes	1708517
+155528	26.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Malasseziomycetes	1538075
+84	5.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Malasseziomycetes;o__Malasseziales	162474
+19610	9.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Malasseziomycetes;o__Malasseziales;f__Malasseziaceae	742845
+54944	1416.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Malasseziomycetes;o__Malasseziales;f__Malasseziaceae;g__Malassezia	55193
+226653	62.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Tremellomycetes	155616
+227016	4.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Cystofilobasidiales	90883
+153929	67.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Filobasidiales	90886
+106277	192.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Filobasidiales;f__Filobasidiaceae	5408
+134905	4.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Filobasidiales;f__Piskurozymaceae	1851565
+174880	1.0	sk__Eukaryota;k__Metazoa;p__Cnidaria;c__Hydrozoa	6074

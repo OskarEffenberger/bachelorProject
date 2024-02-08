@@ -1,0 +1,14 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+195154	1.0	sk__Archaea;k__;p__Crenarchaeota	28889
+5820	1.0	sk__Bacteria	2
+49655	3.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia	200643
+122311	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae	563798
+109276	3.0	sk__Bacteria;k__;p__Calditrichaeota;c__;o__;f__;g__Calorithrix	1930613
+92267	2.0	sk__Bacteria;k__;p__Calditrichaeota;c__Calditrichae;o__Calditrichales;f__Calditrichaceae	1962854
+121755	1.0	sk__Bacteria;k__;p__Chloroflexi;c__Caldilineae;o__Caldilineales;f__Caldilineaceae	475964
+81496	1.0	sk__Bacteria;k__;p__Kiritimatiellaeota;c__Kiritimatiellae	1921781
+219247	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobacteraceae;g__Desulfosarcina	2299
+52402	2.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria	1236
+106490	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Arenicellales;f__Arenicellaceae	1617891
+92713	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales	135614

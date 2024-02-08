@@ -1,0 +1,25 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+41722	3817.0	sk__Archaea	2157
+19939	8.0	sk__Archaea;k__;p__Candidatus_Altiarchaeota;c__;o__Candidatus_Altiarchaeales	1803511
+118507	19.0	sk__Archaea;k__;p__Candidatus_Diapherotrites	743725
+29336	1.0	sk__Archaea;k__;p__Candidatus_Micrarchaeota	1801631
+105534	18.0	sk__Archaea;k__;p__Candidatus_Woesearchaeota	1801616
+195154	25611.0	sk__Archaea;k__;p__Crenarchaeota	28889
+182933	22.0	sk__Archaea;k__;p__Euryarchaeota	28890
+81891	210.0	sk__Archaea;k__;p__Euryarchaeota;c__;o__;f__;g__;s__Euryarchaeota_archaeon_SG8-5	1803822
+231105	278.0	sk__Archaea;k__;p__Euryarchaeota;c__Candidatus_Poseidoniia	2599185
+211481	1023.0	sk__Archaea;k__;p__Euryarchaeota;c__Methanomicrobia	224756
+48483	1.0	sk__Archaea;k__;p__Euryarchaeota;c__Methanomicrobia;o__Methanosarcinales;f__Methanosarcinaceae;g__Methanosarcina	2207
+100452	1.0	sk__Archaea;k__;p__Euryarchaeota;c__Methanomicrobia;o__Methanosarcinales;f__Methermicoccaceae	660062
+232311	39.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermococci	183968
+179740	6366.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata	183967
+16619	6.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata;o__Methanomassiliicoccales	1235850
+169681	1950.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata;o__Methanomassiliicoccales;f__Methanomassiliicoccaceae	1577788
+154083	1.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata;o__Thermoplasmatales	2301
+163609	29.0	sk__Archaea;k__;p__Euryarchaeota;c__Thermoplasmata;o__Thermoplasmatales;f__;g__;s__Thermoplasmatales_archaeon_SCGC_AB-539-N05	1198116
+219254	25.0	sk__Archaea;k__;p__Nanoarchaeota	192989
+210274	6.0	sk__Archaea;k__;p__Thaumarchaeota	651137
+104349	2.0	sk__Archaea;k__;p__Thaumarchaeota;c__;o__Nitrosopumilales;f__Nitrosopumilaceae	338190
+220170	3.0	sk__Archaea;k__;p__Thaumarchaeota;c__Nitrososphaeria;o__Nitrososphaerales;f__Nitrososphaeraceae	1033997
+100053	1.0	sk__Eukaryota	2759

@@ -1,0 +1,11 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+189899	2.0	sk__Eukaryota;k__;p__Cercozoa	136419
+119481	1.0	sk__Eukaryota;k__;p__Imbricatea	1736114
+25778	1.0	sk__Eukaryota;k__Fungi	4751
+236001	1.0	sk__Eukaryota;k__Fungi;p__Chytridiomycota;c__Chytridiomycetes;o__Gromochytriales;f__Gromochytriaceae	1486922
+74670	19.0	sk__Eukaryota;k__Metazoa;p__Cnidaria	6073
+174880	3236.0	sk__Eukaryota;k__Metazoa;p__Cnidaria;c__Hydrozoa	6074
+153217	1.0	sk__Eukaryota;k__Metazoa;p__Cnidaria;c__Hydrozoa;o__Anthoathecata	406427
+162513	1.0	sk__Eukaryota;k__Metazoa;p__Cnidaria;c__Hydrozoa;o__Narcomedusae	43184
+206516	1.0	sk__Eukaryota;k__Metazoa;p__Cnidaria;c__Hydrozoa;o__Trachymedusae	43183
