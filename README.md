@@ -8,10 +8,10 @@ Detailed Graph
 Takes Taxonimic assignments for Bioms from the [MGnify](https://www.ebi.ac.uk/metagenomics) Database and feeds them into a [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest), resulting in classification on a Biom level.
 ## Inputs
 * 2 Bioms Strings from Mgnify (eg. **root:Engineered** or **root:Environmental:Aquatic:Freshwater:Drinking water:Chlorinated**), a list of possible bioms can be found [here](https://www.ebi.ac.uk/metagenomics/browse/biomes/).
-* A jupyter notebook [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) , which collects Taxonomic assignmensts from MGnify
+* A jupyter notebook [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) , which collects taxonomic assignmensts from MGnify
 * A jupyter notebook [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) , which merges the taxonomic assignments of a all samples in a biome into a single table, filtered by given taxonomic rank.
-* A taxonomic level on which [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) merges the assignments
-* Max Samples, an integer limiting for how many samples the Notebook tries to find assignments. This input exists to reduce datasize and runtime for Bioms with large quantities of samples.
+* A taxonomic level on which [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) merges the assignments.
+* Max Samples, an integer limiting for how many samples the notebook requests for each biome from the MGnify-API. This input exists to reduce datasize and runtime for biomes with large quantities of samples.
 * A normalization method out of {Softmax,relative Abundance, Sigmoid, CSS, TMM,RLE}
 
 
@@ -21,49 +21,49 @@ Results of the workflow are outputs from the [DeepMicro Tool](https://usegalaxy.
 Table with the following header:  
 '{Encoding}_{classifier}, AUC, ACC, Recall, Precision, F1_score, time-end, runtime(sec), classfication time(sec), best hyper-parameter'  
 
-And results of the different tools wich are stored in the history.
+And results of the different subworkflows wich are stored in the history.
 # Subworkflows
 ### GetDataFromMgnifyAndJoin
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/GetDataFromMgnifyAndJoinGraph.png)
-Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) to retrive taxonomic assignments from Mgnify. Those are then grouped according to p pre defined taxonomic rank and Merged into one table per biom through the usage of [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb).
+Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) to retrive taxonomic assignments from MGnify. Those are then grouped according to the pre defined taxonomic rank and merged into one table per biom through the usage of [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb).
 #### Input
-* 2 Biom Identifier fom Mgnify
+* 2 biome identifier fom MGnify
 * [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as notebook
 * [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) as notebook
-* An integer setting a maximum number of samples (To allow usage of large bioms without downloading 50000 samples)
+* An integer setting a maximum number of samples (to allow usage of large bioms without downloading all samples of the biome)
 * A taxonomic level on which the counts are grouped
 #### Output
-* 2 Tables (.tsv) with reads for each samples in the given Biom (row 1: Analysis-Accession, column 1: taxa)
+* 2 tables (.tsv), one for each biome with reads for each sample in the given biomes (row 1: Analysis-Accession, column 1: taxa)
 ### Normalization Subworkflow
-Informations to Normalization: [Go to Normalization Workflow section](#normalization-workflow)
+Informations to normalization: [go to normalization workflow Section](#normalization-workflow)
 # Notebooks
 ### Get Analysis
 [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb)
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/Get_Analysis_Notebook_Graph.png)
-Gets Taxonomic assignments from Mgnify for the given Biom
+Gets taxonomic assignments from MGnify for the given biome
 #### Input
-A Biom identifier from Mgnify.
+A biome identifier from MGnify.
 
 A maximim number of samples. (interger)
 #### Output
-Collection with Taxonomic assignments for each sample
+A collection with taxonomic assignments for each sample
 ### Get Analysis For Study
 [Galaxy_Get_analysis_for_study.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis_for_study.ipynb)
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/Get_Analysis_For_Study_Notebook_Graph.png)
-Gets Taxonomic assignments from Mgnify for all Samples of one Study.
+Gets taxonomic assignments from MGnify for all Samples of one Study.
 #### Input
-A Study Accession from Mgnify
+A study accession from MGnify
 #### Output
-Collection with Taxonomic assignments for each sample of the given Study
+Collection with taxonomic assignments for each sample of the given study
 
 # Normalization Workflow
-Link to Workflow : https://usegalaxy.eu/u/johannes.effenberger/w/normalization
+Link to workflow : https://usegalaxy.eu/u/johannes.effenberger/w/normalization
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/FullNormalizationWF.png)
 This workflow normalizes a given table using one of the following normalization methods 
 ## Normalization Methods
-* Relative Abundance
-* Softmax normalization, to prevent overflow errors when we have large assignment values we first calculate relative abundance, and multiply the results of that by 100 before we use softmax normalization.
-* Sigmoid normalization, after calculating sigmoid normalization we divide by 2 and add .5 to move our output range from [-1,1] to [0,1]
+* Relative abundance
+* Softmax normalization, to prevent overflow errors when we have large assignment values we first use relative abundance to normalize the table, and multiply the results of that by 100 before we apply softmax normalization.
+* Sigmoid normalization, similar to softmax normalization, uses a table, normalized with relative abundance, as input to prevent overflow errors in calcualtion. After calculating sigmoid normalization we divide by 2 and add .5 to move our output range from [-1,1] to [0,1]
 * CSS
 * TMM
 * RLE
@@ -80,14 +80,14 @@ Step 2:
 
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_start_WF.png)
 
-When starting the Workflow select [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as Get Data Notebook and [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) as Merge Taxonomy Notebook.
+When starting the workflow select [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as Get Data Notebook and [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) as Merge Taxonomy Notebook.
 
 Step 3:
 
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_raw_and_merged_counts.png)
 
-The Jupytool Output Collections are the Reads for each sample (Output from [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb))
-and the countTable are all merged reads for 1 Biom (name of file changed depending on selected taxonomic level)
+The Jupytool output collections are the taxonomic assignments for each sample (output from [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb))
+and the countTable are all merged reads for one biome (name of file changed depending on selected taxonomic level)
 
 
 [Example Data 3 Jupytool Output Collection](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/3%20JupyTool%20output%20collection)
@@ -106,7 +106,7 @@ Step 4:
 
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/picturesForGit/image_normalized_counts.png)
 
-In Normalized Tables are the Normalized count tables for both Bioms. 
+In normalized tables are the normalized count tables for both biomes. 
 
 
 [Example Data Normalized Tables](https://github.com/OskarEffenberger/bachelorProject/tree/main/data/ExampleRunData/1170%20Normalized%20Table)
