@@ -9,7 +9,7 @@ Takes Taxonimic assignments for Bioms from the [MGnify](https://www.ebi.ac.uk/me
 ## Inputs
 * 2 Bioms Strings from Mgnify (eg. **root:Engineered** or **root:Environmental:Aquatic:Freshwater:Drinking water:Chlorinated**), a list of possible bioms can be found [here](https://www.ebi.ac.uk/metagenomics/browse/biomes/).
 * A jupyter notebook [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) , which collects Taxonomic assignmensts from MGnify
-* A jupyter notebook [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) , which collects Taxonomic assignmensts from MGnify
+* A jupyter notebook [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) , which merges the taxonomic assignments of a all samples in a biome into a single table, filtered by given taxonomic rank.
 * A taxonomic level on which [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) merges the assignments
 * Max Samples, an integer limiting for how many samples the Notebook tries to find assignments. This input exists to reduce datasize and runtime for Bioms with large quantities of samples.
 * A normalization method out of {Softmax,relative Abundance, Sigmoid, CSS, TMM,RLE}
