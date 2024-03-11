@@ -21,7 +21,7 @@ Results of the workflow are outputs from the [DeepMicro Tool](https://usegalaxy.
 Table with the following header:  
 '{Encoding}_{classifier}, AUC, ACC, Recall, Precision, F1_score, time-end, runtime(sec), classfication time(sec), best hyper-parameter'  
 
-And results of the different tooles wich are stored in the history.
+And results of the different tools wich are stored in the history.
 # Subworkflows
 ### GetDataFromMgnifyAndJoin
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/GetDataFromMgnifyAndJoinGraph.png)
