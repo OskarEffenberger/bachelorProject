@@ -1,13 +1,13 @@
 # [DeepMicro on Mgnify Bioms Galaxy Workflow](https://usegalaxy.eu/u/johannes.effenberger/w/copy-of-mgnify-ml-normalization)
-Link to Workflow : https://usegalaxy.eu/u/johannes.effenberger/w/copy-of-mgnify-ml-normalization
+Link to workflow : https://usegalaxy.eu/u/johannes.effenberger/w/copy-of-mgnify-ml-normalization
 ## What it does
 Abstract Graph
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/MgnifyMLAbstract_Fill.png)
 Detailed Graph
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/CompleteWorkflowGraph.png)
-Takes Taxonimic assignments for Bioms from the [MGnify](https://www.ebi.ac.uk/metagenomics) Database and feeds them into a [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest), resulting in classification on a Biom level.
+Takes taxonimic assignments for biomes from the [MGnify](https://www.ebi.ac.uk/metagenomics) database and feeds them into a [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest), resulting in classification on a biome level.
 ## Inputs
-* 2 Bioms Strings from Mgnify (eg. **root:Engineered** or **root:Environmental:Aquatic:Freshwater:Drinking water:Chlorinated**), a list of possible bioms can be found [here](https://www.ebi.ac.uk/metagenomics/browse/biomes/).
+* 2 biome strings from MGnify (eg. **root:Engineered** or **root:Environmental:Aquatic:Freshwater:Drinking water:Chlorinated**), a list of possible biomes can be found [here](https://www.ebi.ac.uk/metagenomics/browse/biomes/).
 * A jupyter notebook [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) , which collects taxonomic assignmensts from MGnify
 * A jupyter notebook [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) , which merges the taxonomic assignments of a all samples in a biome into a single table, filtered by given taxonomic rank.
 * A taxonomic level on which [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb) merges the assignments.
