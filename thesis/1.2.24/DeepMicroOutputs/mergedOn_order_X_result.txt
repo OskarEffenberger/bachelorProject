@@ -1,1 +1,0 @@
-rf,0.998,0.9846,0.97,1.0,0.9848,2024-01-29 02:51:23.472496,387.17,387.17,"{'criterion': 'entropy', 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 500}"

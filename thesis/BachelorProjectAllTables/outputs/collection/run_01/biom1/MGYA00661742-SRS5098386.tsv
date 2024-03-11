@@ -1,8 +1,0 @@
-# Constructed from biom file
-# OTU ID	SSU_rRNA	taxonomy	taxid
-236424	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae	171551
-51923	1.0	sk__Bacteria;k__;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas	836
-61081	2.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	848
-83087	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	194
-151248	2.0	sk__Bacteria;k__;p__Spirochaetes;c__Spirochaetia;o__Spirochaetales;f__Spirochaetaceae	137
-8047	1.0	sk__Bacteria;k__;p__Synergistetes;c__Synergistia;o__Synergistales;f__Synergistaceae	649777
