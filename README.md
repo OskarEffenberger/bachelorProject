@@ -17,13 +17,15 @@ Takes Taxonimic assignments for Bioms from the [MGnify](https://www.ebi.ac.uk/me
 
 ## Outputs
 Results of the workflow are outputs from the [DeepMicro Tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fdeepmicro%2Fdeepmicro%2F1.4%2Bgalaxy1&version=latest).
-==> Table with the following header:  
+
+Table with the following header:  
 '{Encoding}_{classifier}, AUC, ACC, Recall, Precision, F1_score, time-end, runtime(sec), classfication time(sec), best hyper-parameter'  
-and matching values.
+
+And results of the different tooles wich are stored in the history.
 # Subworkflows
 ### GetDataFromMgnifyAndJoin
 ![Image](https://github.com/OskarEffenberger/bachelorProject/blob/main/graphs/GetDataFromMgnifyAndJoinGraph.png)
-Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) to retrive Taxonomic assignments from Mgnify. Those are Then grouped according to the Boolean paramets for each Taxonomic level and Merged into one Table per biom in the end.
+Uses the [Interactive JupyTool and notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_jupyter_notebook) tool comined with [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) to retrive Taxonomic assignments from Mgnify. Those are Then grouped according to the Boolean paramets for each Taxonomic level and Merged into one Table per biom through the usage of [Galaxy_MergeTaxonomyByRank.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_MergeTaxonomyByRank.ipynb).
 #### Input
 * 2 Biom Identifier fom Mgnify
 * [Galaxy_Get_analysis.ipynb](https://github.com/OskarEffenberger/bachelorProject/blob/main/notebooks/Galaxy_Get_analysis.ipynb) as notebook
